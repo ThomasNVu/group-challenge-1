@@ -1,13 +1,18 @@
+body, html {
+    height: 100%;
+}
+
 body{
     margin: 0;
     padding: 0;
 }
 
 .background{
-    position: absolute;
     background-image: url('./img/city.png');
-    z-index: -1;
-    height: 100vh;
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
