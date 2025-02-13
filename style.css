@@ -4,24 +4,25 @@
     z-index: -1;
     height: 100vh;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 #street_light{
     position: absolute;
-    height: 200px;
+    height: 100px;
     z-index: 0;
-    left: 30px;
+    left: 250px;
     bottom: 60px;
     
 }
 
 .foreground img{
     position: absolute;
-    height: 155px;
+    height: 65px;
     bottom: 75px;
-    left: 40px;
+    left: 80px;
 }
 
 #couple1{
@@ -37,4 +38,11 @@
     left: 0;
     z-index: 2;
     height: 95px;
+}
+
+#car{
+    position: absolute;
+    height: 60px;
+    bottom: 75px;
+    left: 350px;
 }
