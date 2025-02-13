@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .background{
     position: absolute;
     background-image: url('./img/city.png');
@@ -6,7 +11,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 #street_light{
@@ -14,7 +18,7 @@
     height: 100px;
     z-index: 0;
     left: 250px;
-    bottom: 60px;
+    bottom: 80px;
     
 }
 
@@ -37,7 +41,7 @@
     top: 0;
     left: 0;
     z-index: 2;
-    height: 95px;
+    height: 85px;
 }
 
 #car{
