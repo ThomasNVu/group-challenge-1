@@ -1,0 +1,40 @@
+.background{
+    position: absolute;
+    background-image: url('./img/city.png');
+    z-index: -1;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#street_light{
+    position: absolute;
+    height: 200px;
+    z-index: 0;
+    left: 30px;
+    bottom: 60px;
+    
+}
+
+.foreground img{
+    position: absolute;
+    height: 155px;
+    bottom: 75px;
+    left: 40px;
+}
+
+#couple1{
+    position: absolute;
+    height: 100px;
+    bottom: 60px;
+    left: 650px;
+}
+
+#bird{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 95px;
+}
